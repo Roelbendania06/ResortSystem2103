@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="choice">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Serif" size="12" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Choices:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deluxeroom1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Deluxe Room"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="deluxeroom" min="-2" max="-2" attributes="0"/>
+                                  <Component id="deluxeroom2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="deluxeroom4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="suiteroom" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="deluxeroom3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="180" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="doubleprice" min="-2" pref="56" max="-2" attributes="0"/>
+                                          <Component id="twinprice" min="-2" max="-2" attributes="0"/>
+                                          <Component id="singleprice" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                                          <Component id="standardroom4" min="-2" pref="84" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="suiteroom4" min="-2" pref="66" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="roomType" min="-2" pref="110" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" pref="66" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="noOfPax" min="-2" pref="110" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="done" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                          <Component id="reserve" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="standardroom" min="-2" pref="136" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="guestchoice" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="choice1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="standardroom1" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                  <Component id="standardroom3" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                  <Component id="standardroom2" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                  <Component id="suiteroom1" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="29" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="suiteroom3" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                  <Component id="suiteroom2" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="juniorprice" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="executiveprice" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="presidentialprice" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="viewprice" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="wbalconyprice" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="premprice" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="guestchoice" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="choice1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="noOfPax" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="suiteroom4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="roomType" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="standardroom" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="standardroom4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="singleprice" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="doubleprice" min="-2" pref="16" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="twinprice" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="done" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="reserve" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="standardroom1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="standardroom3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="standardroom2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="deluxeroom" min="-2" pref="19" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="deluxeroom2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="premprice" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="deluxeroom3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wbalconyprice" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="deluxeroom4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="viewprice" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="suiteroom" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="suiteroom2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="juniorprice" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="suiteroom1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="executiveprice" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="suiteroom3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="presidentialprice" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="195" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="229" max="-2" attributes="0"/>
+                      <Component id="roomreserve" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="229" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="roomreserve" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="38" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="roomreserve">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Serif" size="18" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Room Reservation"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="guestchoice">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Serif" size="12" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Guest&apos;s choice of Room Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="choice1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Serif" size="12" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Choices:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="standardroom">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Standard Room"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="standardroom1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="single room"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="standardroom2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="double Room"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="standardroom3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Twin Room"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deluxeroom">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Deluxe Room"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deluxeroom2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="premium furnishing"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deluxeroom3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="w/ balcony "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deluxeroom4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="view of resort"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="suiteroom">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Suite Room"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="suiteroom1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Executive Room"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="suiteroom2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Junior room"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="suiteroom3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Presidential Room"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="no. of pax: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="noOfPax">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="noOfPaxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="suiteroom4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="room type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="roomType">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="roomTypeActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="TextArea">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="done">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="done"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="doneActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="reserve">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="reserve"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="reserveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="standardroom4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Price"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="singleprice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PHP 1,000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="doubleprice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PHP 2,500"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="twinprice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PHP 2,800 "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="premprice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PHP 6,000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wbalconyprice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PHP 6,500"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="viewprice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PHP 7,000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="juniorprice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PHP 8,000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="executiveprice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PHP 8,500"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="presidentialprice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PHP 9,000"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
