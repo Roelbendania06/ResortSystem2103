@@ -7,6 +7,11 @@
  *
  * @author user
  */
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import javax.swing.JOptionPane;
 public class room extends javax.swing.JFrame {
 
     private String selectedRoomType;
@@ -332,7 +337,7 @@ public class room extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addGap(96, 96, 96)
                             .addComponent(plschoose))))
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addContainerGap(217, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -471,19 +476,50 @@ public class room extends javax.swing.JFrame {
         } catch (NumberFormatException e) {
             // Handle invalid input
             numberofpax.setText("");
-            System.out.println("Please enter a valid number for Pax.");
+           System.out.println("Please enter a valid number for Pax.");
         }
-        
     
 
     }//GEN-LAST:event_numberofpaxActionPerformed
 
     private void doneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doneActionPerformed
-        result.setText("Room Type: " + getSelectedRoomType() + "\nNumber of Pax: " + getNumberOfPax());
+        result.setText("Room Type: " + getSelectedRoomType() + "\nNumber of Pax: " + numberofpax.getText());
     }//GEN-LAST:event_doneActionPerformed
     
     private void submitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitActionPerformed
         // TODO add your handling code here:
+       String roomType = getSelectedRoomType();
+    int pax = getNumberOfPax();
+   
+     String dbName = "reserve"; // Your database name
+    String dbDriver = "com.mysql.cj.jdbc.Driver"; // MySQL JDBC driver
+    String dbUsername = "root"; // Your database username
+    String dbPassword = ""; // Replace with your actual password
+    String url = "jdbc:mysql://localhost:3306/" + dbName; // Database URL
+
+    // SQL query to insert data
+    String query = "INSERT INTO reservations (room_type, number_of_pax) VALUES (?, ?)";
+
+    try (Connection conn = DriverManager.getConnection(url, dbUsername, dbPassword );
+         PreparedStatement pstmt = conn.prepareStatement(query)) {
+        
+        pstmt.setString(1, roomType);
+        pstmt.setInt(2, pax);
+        
+        int affectedRows = pstmt.executeUpdate();
+        
+        if (affectedRows > 0) {
+            JOptionPane.showMessageDialog(this, "Reservation submitted successfully!");
+        } else {
+            JOptionPane.showMessageDialog(this, "Failed to submit reservation.");
+        }
+    } catch (SQLException e) {
+        e.printStackTrace();
+       JOptionPane.showMessageDialog(this, "Database error: " + e.getMessage());
+    }
+
+        
+        
     }//GEN-LAST:event_submitActionPerformed
 
     /**
@@ -491,6 +527,22 @@ public class room extends javax.swing.JFrame {
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
+        try {
+        for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+            if ("Nimbus".equals(info.getName())) {
+                javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                break;
+            }
+        }
+    } catch (ClassNotFoundException ex) {
+        java.util.logging.Logger.getLogger(room.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+    } catch (InstantiationException ex) {
+        java.util.logging.Logger.getLogger(room.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+    } catch (IllegalAccessException ex) {
+        java.util.logging.Logger.getLogger(room.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+    } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        java.util.logging.Logger.getLogger(room.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+    }
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
